@@ -28,7 +28,7 @@ const Hero = () => {
             </div>
 
             {/* Booking Form */}
-            <Card className="p-6 bg-white/80 backdrop-blur-sm shadow-xl">
+            {/* <Card className="p-6 bg-white/80 backdrop-blur-sm shadow-xl">
               <h3 className="text-xl font-semibold mb-4">Book Your Ride</h3>
               <div className="space-y-4">
                 <div className="relative">
@@ -53,7 +53,7 @@ const Hero = () => {
                   Book Now
                 </Button>
               </div>
-            </Card>
+            </Card> */}
 
             {/* Quick Stats */}
             <div className="grid grid-cols-3 gap-6">
@@ -88,12 +88,12 @@ const Hero = () => {
                 <span className="font-semibold">2 min arrival</span>
               </div>
             </div>
-            <div className="absolute -bottom-4 -left-4 bg-white p-4 rounded-xl shadow-lg z-20">
+            {/* <div className="absolute -bottom-4 -left-4 bg-white p-4 rounded-xl shadow-lg z-20">
               <div className="text-center">
                 <div className="text-2xl font-bold text-primary">₹45</div>
                 <div className="text-sm text-gray-600">Estimated fare</div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

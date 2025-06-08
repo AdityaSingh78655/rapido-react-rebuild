@@ -36,7 +36,7 @@ const HowItWorks = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4">
-            How <span className="text-gradient">Rapido</span> Works
+            How <span className="text-gradient">Biro Cabs</span> Works
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Getting around the city has never been this easy
@@ -72,7 +72,7 @@ const HowItWorks = () => {
           <div className="bg-white p-8 rounded-2xl shadow-xl max-w-2xl mx-auto">
             <h3 className="text-2xl font-bold mb-4">Ready to get started?</h3>
             <p className="text-gray-600 mb-6">
-              Download the Rapido app and experience the future of urban mobility
+              Download the Biro cabs app and experience the future of urban mobility
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <img
@@ -83,7 +83,7 @@ const HowItWorks = () => {
               <img
                 src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
                 alt="Get it on Google Play"
-                className="h-12"
+                className="h-12 "
               />
             </div>
           </div>

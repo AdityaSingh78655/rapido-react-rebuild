@@ -62,7 +62,7 @@ const DriverSignup = () => {
             <div>
               <Badge className="bg-primary text-white mb-4">Driver Partner Program</Badge>
               <h2 className="text-4xl font-bold mb-4">
-                Drive with <span className="text-gradient">Rapido</span>
+                Drive with <span className="text-gradient">Biro Cabs</span>
               </h2>
               <p className="text-xl text-gray-600">
                 Join thousands of driver partners and start earning today. 

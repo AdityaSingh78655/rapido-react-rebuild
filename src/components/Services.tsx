@@ -64,7 +64,7 @@ const Services = () => {
         </div>
 
         {/* Service Cards */}
-        <div className="grid md:grid-cols-3 gap-8 mb-20">
+        {/* <div className="grid md:grid-cols-3 gap-8 mb-20">
           {services.map((service, index) => (
             <Card key={index} className="group hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
               <CardContent className="p-6">
@@ -89,7 +89,7 @@ const Services = () => {
               </CardContent>
             </Card>
           ))}
-        </div>
+        </div> */}
 
         {/* Features */}
         <div className="grid md:grid-cols-3 gap-8">

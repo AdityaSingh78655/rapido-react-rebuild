@@ -44,7 +44,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8">
           {/* Brand Section */}
           <div className="lg:col-span-2">
-            <div className="text-3xl font-bold text-gradient mb-4">Rapido</div>
+            <div className="text-3xl font-bold text-gradient mb-4">Biro Cabs</div>
             <p className="text-gray-300 mb-6 max-w-sm">
               Making urban mobility simple, safe, and affordable for everyone. 
               Your trusted ride partner across the city.
@@ -54,15 +54,15 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center gap-3 text-gray-300">
                 <Phone className="h-5 w-5 text-primary" />
-                <span>+91 1800-123-4567</span>
+                <span>+91 7267024870</span>
               </div>
               <div className="flex items-center gap-3 text-gray-300">
                 <Mail className="h-5 w-5 text-primary" />
-                <span>support@rapido.com</span>
+                <span>support@biroCabs.com</span>
               </div>
               <div className="flex items-center gap-3 text-gray-300">
                 <MapPin className="h-5 w-5 text-primary" />
-                <span>Bangalore, India</span>
+                <span>New Delhi, India</span>
               </div>
             </div>
           </div>
@@ -124,7 +124,7 @@ const Footer = () => {
         {/* Download Apps Section */}
         <div className="border-t border-gray-700 mt-12 pt-8">
           <div className="text-center mb-8">
-            <h3 className="text-xl font-semibold mb-4">Download the Rapido App</h3>
+            <h3 className="text-xl font-semibold mb-4">Download the Biro Cabs App</h3>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <img
                 src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
@@ -143,7 +143,7 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center">
           <div className="text-gray-400 text-sm mb-4 md:mb-0">
-            © 2024 Rapido. All rights reserved.
+            © 2025 Biro Cabs. All rights reserved.
           </div>
           
           {/* Social Links */}

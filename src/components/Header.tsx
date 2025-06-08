@@ -13,7 +13,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center">
             <div className="text-2xl font-bold text-gradient">
-              Rapido
+              Biro Cabs
             </div>
           </div>
 

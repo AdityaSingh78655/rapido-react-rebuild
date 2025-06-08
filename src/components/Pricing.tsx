@@ -68,7 +68,7 @@ const Pricing = () => {
         </div>
 
         {/* Pricing Table */}
-        <div className="mb-16">
+        {/* <div className="mb-16">
           <Card className="overflow-hidden">
             <CardContent className="p-0">
               <div className="overflow-x-auto">
@@ -98,7 +98,7 @@ const Pricing = () => {
               </div>
             </CardContent>
           </Card>
-        </div>
+        </div> */}
 
         {/* Pricing Factors */}
         <div>
