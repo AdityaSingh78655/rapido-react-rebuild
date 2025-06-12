@@ -58,15 +58,15 @@ const Hero = () => {
             {/* Quick Stats */}
             <div className="grid grid-cols-3 gap-6">
               <div className="text-center">
-                <div className="text-2xl font-bold text-primary">2M+</div>
+                <div className="text-2xl font-bold text-primary">1M+</div>
                 <div className="text-sm text-gray-600">Happy Customers</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-primary">50K+</div>
+                <div className="text-2xl font-bold text-primary">40K+</div>
                 <div className="text-sm text-gray-600">Daily Rides</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-primary">15+</div>
+                <div className="text-2xl font-bold text-primary">2+</div>
                 <div className="text-sm text-gray-600">Cities</div>
               </div>
             </div>
