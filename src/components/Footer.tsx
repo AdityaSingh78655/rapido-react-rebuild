@@ -20,7 +20,7 @@ const Footer = () => {
       { name: "Help Center", href: "#" },
       { name: "Safety", href: "#" },
       { name: "Contact Us", href: "#" },
-      { name: "Lost & Found", href: "#" }
+      { name: "Lost & Found", href: "/lost-and-found" }
     ],
     legal: [
       { name: "Privacy Policy", href: "#" },
