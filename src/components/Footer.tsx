@@ -34,7 +34,7 @@ const Footer = () => {
     { icon: Facebook, href: "https://www.facebook.com/profile.php?id=100084774127059&mibextid=wwXIfr&rdid=9cdsLAgUugSJt9ZJ&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1CBBPBydmU%2F%3Fmibextid%3DwwXIfr#", name: "Facebook" },
     { icon: Twitter, href: "https://x.com/cabsbiro?s=21", name: "Twitter" },
     { icon: Instagram, href: "https://www.instagram.com/biro.cabs/?igsh=bHMxZXE0eDN2NTA2&utm_source=qr#", name: "Instagram" },
-    { icon: Linkedin, href: "https://www.linkedin.com/in/naveen-dalal-a65997217/", name: "LinkedIn" }
+    { icon: Linkedin, href: "https://www.linkedin.com/company/biro-cabs", name: "LinkedIn" }
   ];
 
   return (
