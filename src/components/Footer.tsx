@@ -6,15 +6,15 @@ const Footer = () => {
   const footerLinks = {
     company: [
       { name: "About Us", href: "#" },
-      { name: "Careers", href: "#" },
-      { name: "Press", href: "#" },
-      { name: "Blog", href: "#" }
+      // { name: "Careers", href: "#" },
+      // { name: "Press", href: "#" },
+      // { name: "Blog", href: "#" }
     ],
     services: [
       { name: "Bike Taxi", href: "#" },
       { name: "Auto Rickshaw", href: "#" },
       { name: "Cab Service", href: "#" },
-      { name: "Parcel Delivery", href: "#" }
+      { name: "Auto Share", href: "#" }
     ],
     support: [
       { name: "Help Center", href: "#" },
@@ -31,10 +31,10 @@ const Footer = () => {
   };
 
   const socialLinks = [
-    { icon: Facebook, href: "#", name: "Facebook" },
-    { icon: Twitter, href: "#", name: "Twitter" },
-    { icon: Instagram, href: "#", name: "Instagram" },
-    { icon: Linkedin, href: "#", name: "LinkedIn" }
+    { icon: Facebook, href: "https://www.facebook.com/profile.php?id=100084774127059&mibextid=wwXIfr&rdid=9cdsLAgUugSJt9ZJ&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1CBBPBydmU%2F%3Fmibextid%3DwwXIfr#", name: "Facebook" },
+    { icon: Twitter, href: "https://x.com/cabsbiro?s=21", name: "Twitter" },
+    { icon: Instagram, href: "https://www.instagram.com/biro.cabs/?igsh=bHMxZXE0eDN2NTA2&utm_source=qr#", name: "Instagram" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/naveen-dalal-a65997217/", name: "LinkedIn" }
   ];
 
   return (
@@ -54,11 +54,11 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center gap-3 text-gray-300">
                 <Phone className="h-5 w-5 text-primary" />
-                <span>+91 7267024870</span>
+                <span>+91 9999299625</span>
               </div>
               <div className="flex items-center gap-3 text-gray-300">
                 <Mail className="h-5 w-5 text-primary" />
-                <span>support@biroCabs.com</span>
+                <span>Birocabsfaridabad@gmail.com</span>
               </div>
               <div className="flex items-center gap-3 text-gray-300">
                 <MapPin className="h-5 w-5 text-primary" />
@@ -126,16 +126,20 @@ const Footer = () => {
           <div className="text-center mb-8">
             <h3 className="text-xl font-semibold mb-4">Download the Biro Cabs App</h3>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href='https://apps.apple.com/in/app/biro-captain/id1661752241'>
               <img
                 src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
                 alt="Download on App Store"
                 className="h-12"
               />
+              </a>
+               <a href='https://play.google.com/store/apps/details?id=com.birocabs&hl=en_IN'>
               <img
                 src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
                 alt="Get it on Google Play"
                 className="h-12"
               />
+              </a>
             </div>
           </div>
         </div>

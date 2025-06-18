@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X, Phone, User } from 'lucide-react';
+import logo from '../assets/logo.jpeg';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,9 +13,11 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <div className="text-2xl font-bold text-gradient">
+             <img src={logo} alt="Biro Cabs Logo" className="w-20 h-10" />
+            <div className="text-2xl font-bold text-gradient ml-4">
               Biro Cabs
             </div>
+
           </div>
 
           {/* Desktop Navigation */}
@@ -34,16 +37,21 @@ const Header = () => {
           </nav>
 
           {/* Desktop Actions */}
-          <div className="hidden md:flex items-center space-x-4">
-            <Button variant="outline" className="flex items-center gap-2">
-              <Phone className="h-4 w-4" />
-              Call Support
-            </Button>
-            <Button className="gradient-primary text-white flex items-center gap-2">
-              <User className="h-4 w-4" />
-              Login
-            </Button>
-          </div>
+         <div className="hidden md:flex items-center space-x-4">
+  {/* Call Support button */}
+  <a href="tel:+919999299625">
+    <Button variant="outline" className="flex items-center gap-2">
+      <Phone className="h-4 w-4" />
+      Call Support
+    </Button>
+  </a>
+
+  {/* Login button */}
+  {/* <Button className="gradient-primary text-white flex items-center gap-2">
+    <User className="h-4 w-4" />
+    Login
+  </Button> */}
+</div>
 
           {/* Mobile menu button */}
           <div className="md:hidden">
@@ -74,12 +82,14 @@ const Header = () => {
                 Support
               </a>
               <div className="pt-2 space-y-2">
-                <Button variant="outline" className="w-full">
-                  Call Support
-                </Button>
-                <Button className="w-full gradient-primary text-white">
+               <a href="tel:+919999299625" className="block md:hidden w-full">
+  <Button variant="outline" className="w-full">
+    Call Support
+  </Button>
+</a>
+                {/* <Button className="w-full gradient-primary text-white">
                   Login
-                </Button>
+                </Button> */}
               </div>
             </div>
           </div>
