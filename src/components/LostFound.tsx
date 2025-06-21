@@ -59,7 +59,7 @@ const LostFound = () => {
             Choose Your <span className="text-gradient">Ride</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            lost and fonrdkjdkdjkjdkjd hhgdhdgh
+            lost and fonrd
           </p>
         </div>
 
