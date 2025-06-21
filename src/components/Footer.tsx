@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Facebook, Twitter, Instagram, Linkedin, Phone, Mail, MapPin } from 'lucide-react';
+import appStoreBadge from '../../src/assets/ic_google_play.png';
 
 const Footer = () => {
   const footerLinks = {
@@ -135,7 +136,7 @@ const Footer = () => {
               </a>
                <a href='https://play.google.com/store/apps/details?id=com.birocabs&hl=en_IN'>
               <img
-                src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
+                src={appStoreBadge}
                 alt="Get it on Google Play"
                 className="h-12"
               />
