@@ -122,7 +122,7 @@ const Pricing = () => {
         <div className="mt-12 p-6 bg-gray-50 rounded-xl">
           <p className="text-sm text-gray-600 text-center">
             * Prices are estimates and may vary based on traffic, weather conditions, and demand. 
-            Final fare will be calculated based on actual distance and time taken
+            Final fare will be calculated based on actual distance and time taken.
           </p>
         </div>
       </div>
