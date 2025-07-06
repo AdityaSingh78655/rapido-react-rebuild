@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { MapPin, Search, Car, CheckCircle } from 'lucide-react';
+import appStoreBadge from '../assets/ic_google_play.png';
 
 const HowItWorks = () => {
   const steps = [
@@ -83,10 +84,15 @@ const HowItWorks = () => {
               />
               </a>
                 <a href='https://play.google.com/store/apps/details?id=com.birocabs&hl=en_IN'>
-              <img
+              {/* <img
                 src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
                 alt="Get it on Google Play"
                 className="h-12 "
+              /> */}
+               <img
+                src={appStoreBadge}
+                alt="Get it on Google Play"
+                className="h-12"
               />
               </a>
             </div>

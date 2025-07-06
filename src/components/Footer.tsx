@@ -6,7 +6,7 @@ import appStoreBadge from '../../src/assets/ic_google_play.png';
 const Footer = () => {
   const footerLinks = {
     company: [
-      { name: "About Us", href: "#" },
+      { name: "About Us", href: "/AboutUs" },
       // { name: "Careers", href: "#" },
       // { name: "Press", href: "#" },
       // { name: "Blog", href: "#" }
@@ -18,16 +18,15 @@ const Footer = () => {
       { name: "Auto Share", href: "#" }
     ],
     support: [
-      { name: "Help Center", href: "#" },
-      { name: "Safety", href: "#" },
-      { name: "Contact Us", href: "#" },
-      { name: "Lost & Found", href: "/lost-and-found" }
+      { name: "Help Center", href: "/HelpCenter" },
+      { name: "Safety", href: "/Safety" },
+      // { name: "Contact Us", href: "#" },
+      { name: "Lost & Found", href: "/LostAndFound" }
     ],
     legal: [
-      { name: "Privacy Policy", href: "#" },
-      { name: "Terms of Service", href: "#" },
-      { name: "Cookie Policy", href: "#" },
-      { name: "Refund Policy", href: "#" }
+      { name: "Privacy Policy", href: "/PrivacyPolicy" },
+      { name: "Terms of Service", href: "/TermsOfService" },
+      { name: "Refund Policy", href: "/RefundPolicy" }
     ]
   };
 

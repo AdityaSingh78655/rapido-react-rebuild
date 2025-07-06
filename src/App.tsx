@@ -5,7 +5,13 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
-import LostFound from "./components/LostFound";
+import AboutUs from "./components/AboutUs";
+import HelpCenter from "./components/HelpCenter";
+import Safety from "./components/Safety";
+import LostAndFound from "./components/LostAndFound";
+import PrivacyPolicy from "./components/PrivacyPolicy";
+import TermsOfService from "./components/TermsOfService";
+import RefundPolicy from "./components/RefundPolicy";
 
 const queryClient = new QueryClient();
 
@@ -17,7 +23,13 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/lost-and-found" element={<LostFound />} />
+          <Route path="/AboutUs" element={<AboutUs />} />
+           <Route path="/HelpCenter" element={<HelpCenter />} />
+            <Route path="/Safety" element={<Safety />} />
+             <Route path="/LostAndFound" element={<LostAndFound />} />
+              <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
+              <Route path="/TermsOfService" element={<TermsOfService />} />
+               <Route path="/RefundPolicy" element={<RefundPolicy />} />
           {/* <Route path="/Safty" element={<Safty />} /> */}
 
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
