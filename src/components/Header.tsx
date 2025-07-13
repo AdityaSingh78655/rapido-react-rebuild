@@ -25,15 +25,16 @@ const Header = () => {
             <a href="#home" className="text-gray-700 hover:text-primary transition-colors">
               Home
             </a>
-            <a href="#services" className="text-gray-700 hover:text-primary transition-colors">
-              Services
-            </a>
+           
             <a href="/Safety" className="text-gray-700 hover:text-primary transition-colors">
               Safety
             </a>
-            <a href="#support" className="text-gray-700 hover:text-primary transition-colors">
-              Support
+             <a href="/AboutUs" className="text-gray-700 hover:text-primary transition-colors">
+              About Us
             </a>
+            {/* <a href="#support" className="text-gray-700 hover:text-primary transition-colors">
+              Support
+            </a> */}
           </nav>
 
           {/* Desktop Actions */}

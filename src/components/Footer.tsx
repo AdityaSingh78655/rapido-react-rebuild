@@ -12,10 +12,10 @@ const Footer = () => {
       // { name: "Blog", href: "#" }
     ],
     services: [
-      { name: "Bike Taxi", href: "#" },
-      { name: "Auto Rickshaw", href: "#" },
-      { name: "Cab Service", href: "#" },
-      { name: "Auto Share", href: "#" }
+      { name: "Bike Taxi",  },
+      { name: "Auto Rickshaw",  },
+      { name: "Cab Service",  },
+      { name: "Auto Share",  }
     ],
     support: [
       { name: "Help Center", href: "/HelpCenter" },

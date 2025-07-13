@@ -1,5 +1,6 @@
 import React from 'react';
 import { ShieldCheck, DollarSign, ThumbsUp } from 'lucide-react';
+import founder from '../assets/founder.jpg'
 
 const AboutUs = () => {
   const highlights = [
@@ -24,6 +25,17 @@ const AboutUs = () => {
     <section id="about" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
+        {/* Founder Info - Top Left */}
+        <div className="flex items-center space-x-4 mb-12">
+  <img src={founder} alt="Founder" className="w-40 h-40 rounded-full object-conatin" />
+  <div className="flex flex-col justify-center">
+    <div className="text-sm font-bold text-black-500 text-center">CEO</div>
+    <div className="text-xl font-bold bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent">
+      Naveen Dalal
+    </div>
+  </div>
+</div>
+        
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4">
             About <span className="text-gradient">Biro Cabs</span>
@@ -37,12 +49,12 @@ const AboutUs = () => {
             making us the go-to choice for all your commuting needs.
           </p>
     <div className="mt-6 text-lg font-bold">
-  <div className="bg-gradient-to-r text-black bg-clip-text text-transparent text-2xl">
+  {/* <div className="bg-gradient-to-r text-black bg-clip-text text-transparent text-2xl">
     CEO
   </div>
   <div className="bg-gradient-to-r text-gradient bg-clip-text text-transparent text-3xl">
     Naveen Dalal
-  </div>
+  </div> */}
 </div>
         </div>
 
