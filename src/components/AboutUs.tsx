@@ -1,6 +1,7 @@
 import React from 'react';
 import { ShieldCheck, DollarSign, ThumbsUp } from 'lucide-react';
 import founder from '../assets/founder.jpg'
+import BackButton from './BackButton';
 
 const AboutUs = () => {
   const highlights = [
@@ -22,10 +23,12 @@ const AboutUs = () => {
   ];
 
   return (
-    <section id="about" className="py-20 bg-white">
+    <section id="about" className="py-10 bg-white">
+        <BackButton /> 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         {/* Founder Info - Top Left */}
+      
         <div className="flex items-center space-x-4 mb-12">
   <img src={founder} alt="Founder" className="w-40 h-40 rounded-full object-conatin" />
   <div className="flex flex-col justify-center">

@@ -1,8 +1,11 @@
 import React from 'react';
+import BackButton from './BackButton';
 
 const RefundPolicy = () => {
   return (
-    <section id="refund-policy" className="py-20 bg-white text-gray-800">
+    
+    <section id="refund-policy" className="py-10 bg-white text-gray-800">
+     <BackButton /> 
       <div className="max-w-5xl mx-auto px-6">
         <h1 className="text-4xl font-bold text-center mb-8">
           Refund <span className="text-gradient">Policy</span>

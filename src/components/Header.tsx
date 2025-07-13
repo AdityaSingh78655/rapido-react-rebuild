@@ -73,15 +73,18 @@ const Header = () => {
               <a href="#home" className="block px-3 py-2 text-gray-700 hover:text-primary">
                 Home
               </a>
-              <a href="#services" className="block px-3 py-2 text-gray-700 hover:text-primary">
+              {/* <a href="#services" className="block px-3 py-2 text-gray-700 hover:text-primary">
                 Services
-              </a>
-              <a href="#safety" className="block px-3 py-2 text-gray-700 hover:text-primary">
+              </a> */}
+              <a href="/safety" className="block px-3 py-2 text-gray-700 hover:text-primary">
                 Safety
               </a>
-              <a href="#support" className="block px-3 py-2 text-gray-700 hover:text-primary">
-                Support
+               <a href="/AboutUs" className="block px-3 py-2 text-gray-700 hover:text-primary">
+                About Us
               </a>
+              {/* <a href="#support" className="block px-3 py-2 text-gray-700 hover:text-primary">
+                Support
+              </a> */}
               <div className="pt-2 space-y-2">
                <a href="tel:+919999299625" className="block md:hidden w-full">
   <Button variant="outline" className="w-full">

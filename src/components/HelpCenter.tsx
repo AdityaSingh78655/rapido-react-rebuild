@@ -1,9 +1,11 @@
 import React from 'react';
 import { Mail, Phone } from 'lucide-react';
+import BackButton from './BackButton';
 
 const HelpCenter = () => {
   return (
-    <section id="help-center" className="py-20 bg-white">
+    <section id="help-center" className="py-10 bg-white">
+      <BackButton />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         {/* Header */}
         <h2 className="text-4xl font-bold mb-4">

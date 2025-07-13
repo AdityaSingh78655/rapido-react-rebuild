@@ -1,8 +1,10 @@
 import React from 'react';
+import BackButton from './BackButton';
 
 const PrivacyPolicy = () => {
   return (
-    <section id="privacy-policy" className="py-20 bg-white text-gray-800">
+    <section id="privacy-policy" className="py-10 bg-white text-gray-800">
+      <BackButton />
       <div className="max-w-5xl mx-auto px-6">
         <h1 className="text-4xl font-bold text-center mb-8">
           Privacy Policy for <span className="text-gradient">Biro Cabs</span>

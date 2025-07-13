@@ -1,5 +1,6 @@
 import React from 'react';
 import { ShieldCheck, AlertTriangle, UserCheck } from 'lucide-react';
+import BackButton from './BackButton';
 
 const Safety = () => {
   const safetyMeasures = [
@@ -21,7 +22,8 @@ const Safety = () => {
   ];
 
   return (
-    <section id="safety" className="py-20 bg-white">
+    <section id="safety" className="py-10 bg-white">
+      <BackButton />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         {/* Header */}
         <h2 className="text-4xl font-bold mb-4">
