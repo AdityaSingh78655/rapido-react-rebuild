@@ -27,7 +27,7 @@ const Safety = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         {/* Header */}
         <h2 className="text-4xl font-bold mb-4">
-          Your <span className="text-gradient">Safety</span> is Our Priority
+          Your <span className="text-gradient">Services</span> is Our Priority
         </h2>
 
         {/* Description */}

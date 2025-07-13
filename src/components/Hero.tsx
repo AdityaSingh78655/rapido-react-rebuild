@@ -10,7 +10,7 @@ const Hero = () => {
   const [destination, setDestination] = useState('');
 
   return (
-    <section id="home" className="relative min-h-screen bg-gradient-to-br from-green-50 via-blue-50 to-orange-50">
+    <section id="home" className="relative min-h-screen bg-gradient-to-br from-green-100 via-blue-50 to-orange-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-16">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}

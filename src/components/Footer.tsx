@@ -19,7 +19,7 @@ const Footer = () => {
     ],
     support: [
       { name: "Help Center", href: "/HelpCenter" },
-      { name: "Safety", href: "/Safety" },
+      { name: "Services", href: "/Safety" },
       // { name: "Contact Us", href: "#" },
       { name: "Lost & Found", href: "/LostAndFound" }
     ],
